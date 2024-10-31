@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000428, #2E8B57);
+    color: #ddd;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px 20px;
+}
+
+.header-logo {
+    color: #2E8B57;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav {
+    background-color: #2E8B57;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #222;
+    margin-right: 20px;
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+.sidebar-section h2 {
+    color: #2E8B57;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar-section ul, .sidebar-section select {
+    background-color: #333;
+    padding: 10px;
+    color: #ddd;
+}
+
+.content {
+    width: 60%;
+}
+
+.main-image {
+    position: relative;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #2E8B57;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.sub-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sub-item {
+    width: 45%;
+    margin-right: 5%;
+    background-color: #333;
+    padding: 15px;
+}
+
+.sub-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sub-item h3 {
+    color: #2E8B57;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sub-item p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.sub-item a {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+.search-form, .info-section {
+    margin-bottom: 20px;
+}
+
+.search-form h2, .info-section h2 {
+    color: #2E8B57;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.search-form button {
+    width: 100%;
+    padding: 8px;
+    background-color: #2E8B57;
+    border: none;
+    cursor: pointer;
+    color: #111;
+}
+
+.info-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.info-section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer p {
+    color: #888;
+    font-size: 12px;
+}
